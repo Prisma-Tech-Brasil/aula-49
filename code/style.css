@@ -1,0 +1,38 @@
+:root {
+  --background: radial-gradient(circle,rgba(46, 6, 137, 1) 0%,rgba(16, 1, 27, 1) 100%);
+  --primary-900: #ff8000;
+
+  --border-radius-md: 1rem;
+  --border: 1px solid red;
+}
+
+body {
+  background: var(--background);
+  color: white;
+}
+
+button {
+  background: var(--primary-900);
+  border: var(--border);
+  border-radius: var(--border-radius-md);
+}
+
+div {
+  background: green;
+
+  h1 {
+    background: blue;
+  }
+
+  h2 {
+    background: red;
+
+    span {
+      color: yellow;
+    }
+  }
+}
+
+h2 {
+  background: yellow;
+}
